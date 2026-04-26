@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-csv-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,green \"npm run dev --workspace @portfolio/backend\" \"npm run dev --workspace @portfolio/frontend\"",
+    "build": "npm run build --workspace @portfolio/backend && npm run build --workspace @portfolio/frontend",
+    "test": "npm run test --workspace @portfolio/backend && npm run test --workspace @portfolio/frontend",
+    "test:e2e": "npm run test:e2e --workspace @portfolio/frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,8 @@
+Account Number,Account Name,Symbol,Description,Quantity,Last Price,Last Price Change,Current Value,Today's Gain/Loss Dollar,Today's Gain/Loss Percent,Total Gain/Loss Dollar,Total Gain/Loss Percent,Percent Of Account,Cost Basis Total,Average Cost Basis,Type
+,Sample Taxable,AAA,SAMPLE BROAD MARKET ETF,2,$10.00,$0.50,$20.00,$1.00,5.00%,$4.00,25.00%,40.00%,$16.00,$8.00,ETF
+,Sample Taxable,BBB,SAMPLE INTERNATIONAL ETF,3,$10.00,$0.25,$30.00,$1.50,5.00%,$6.00,25.00%,60.00%,$24.00,$8.00,ETF
+0000,Sample Retirement,CCC,SAMPLE TARGET FUND,4,$10.00,$0.10,$40.00,$2.00,5.00%,$8.00,25.00%,100.00%,$32.00,$8.00,Mutual Fund
+,,,,,,,,,,,,,,,
+"Synthetic disclaimer row used to verify that non-position footer text is ignored.",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Date downloaded Jan-01-2099 12:00 a.m ET,,,,,,,,,,,,,,,
