@@ -16,6 +16,9 @@ Local-first portfolio analysis app for brokerage exports. Upload up to 10 CSV an
 - `shared/` canonical types and pure analysis logic
 - `test/fixtures/` local sample files for repeatable runs
 
+## Screenshot
+![Portfolio Analyzer dashboard](docs/screenshots/dashboard.png)
+
 ## Initial Repository Setup
 
 From `Documents/Projects`:
